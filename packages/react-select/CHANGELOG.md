@@ -1,5 +1,20 @@
 # react-select
 
+## 3.1.0
+
+### Minor Changes
+
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Add `isLoading` prop support to the AsyncSelect component (see #3690)
+
+### Patch Changes
+
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Convert class components that don't have to be class components to function components to reduce bundle size
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Allow the input component to be a `textarea` element
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Add aria attributes to dummy input
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fix Flow issues. Refer to the linked PR for more details on the specific issues.
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Update react-transition-group to ^4.3.0
+- [d787303](https://github.com/JedWatson/react-select/commit/d78730377e25658a5df2930faee54574e757d463) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Enable Babel loose mode to improve bundle size
+
 ## 3.0.8
 
 ### Patch Changes
