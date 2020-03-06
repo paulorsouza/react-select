@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import createClass from 'create-react-class';
 
 import Select from './Select';
 import stripDiacritics from './utils/stripDiacritics';
@@ -42,7 +43,7 @@ const stringOrNode = PropTypes.oneOfType([
 	PropTypes.node
 ]);
 
-const Async = React.createClass({
+const Async = createClass({
 	propTypes: {
 		cache: PropTypes.any,                     // object to use to cache results, can be null to disable cache
 		ignoreAccents: PropTypes.bool,            // whether to strip diacritics when filtering (shared with Select)
